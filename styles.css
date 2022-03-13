@@ -1,0 +1,67 @@
+body{
+    color: #203239;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: #488FB1;
+}
+h3{
+    text-align: center;
+    padding-top: 30px;
+    color: #488FB1;
+}
+.content-head{
+    text-align: center;
+    font-size: 25px;
+}
+.content{
+    text-align: center;
+    font-size: 25px;
+    padding: 0 90px;
+}
+.btn{
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.container{
+    margin-top: 30px;
+}
+.features{
+    text-align: left;
+}
+.ft-content{
+    margin-left: 50px;
+}
+
+@media (max-width: 1182px){
+    body{
+        margin-right: 0;
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+        margin-left: 15%;
+    }
+    .heading{
+        margin-left: 15%;
+    }
+    .content{
+        padding: 0px;
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    .container{
+        margin: 0;
+    }
+    .btn{
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .content-2{
+        margin-left: 18%;
+    }
+}
